@@ -4,10 +4,23 @@ import {
   Box,
   Text,
   Link,
+  LinkOverlay,
+  LinkBox,
+  Heading,
   VStack,
   Code,
   Grid,
+  SimpleGrid,
   theme,
+  Image,
+  Card,
+  CardBody,
+  CardFooter,
+  Button,
+  ButtonGroup,
+  Divider,
+  Stack,
+  Center,
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 import { Logo } from './Logo';
@@ -16,25 +29,54 @@ function App() {
   return (
     <ChakraProvider theme={theme}>
       <Box textAlign="center" fontSize="xl">
-        <Grid minH="100vh" p={3}>
-          <ColorModeSwitcher justifySelf="flex-end" />
-          <VStack spacing={8}>
-            <Logo h="40vmin" pointerEvents="none" />
+      <ColorModeSwitcher justifySelf="flex-end" />
+      <Center>
+      <Card maxW='sm' align='center' top="100px">
+        <CardBody>
+        <Center>
+          <Image
+            borderRadius='full'
+            boxSize='300px'
+            src='meg.jpg'
+            alt='Lars Haukland'
+          />
+          </Center>
+
+          <Stack mt='6' spacing='3'>
+            <Heading>
+              Lars Haukland
+            </Heading>
+
             <Text>
-              Edit <Code fontSize="xl">src/App.js</Code> and save to reload.
+              I am a third year Bachelor student in Computer Science!
+              
             </Text>
-            <Link
-              color="teal.500"
-              href="https://chakra-ui.com"
-              fontSize="2xl"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn Chakra
-            </Link>
-          </VStack>
-        </Grid>
-      </Box>
+            <Text>
+              Check out my github to look at my projects (like this website!).
+            </Text>
+          </Stack>
+
+          
+            
+          </CardBody>
+
+          <Divider />
+
+          <CardFooter>
+            <LinkBox>
+            <Image
+            borderRadius='full'
+            boxSize='30px'
+            src='github.png'
+            alt='github icon'
+            />
+
+            <LinkOverlay href="https://github.com/Reinsdyret" />
+            </LinkBox>
+          </CardFooter>
+        </Card>
+        </Center>
+        </Box>
     </ChakraProvider>
   );
 }
