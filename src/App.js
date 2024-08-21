@@ -48,7 +48,7 @@ function App() {
             </Heading>
 
             <Text>
-              I have just started a master in informatics at UiB. My spesialization will be algorithms.
+              I have just started a master in informatics at UiB. My specialization will be algorithms.
               
             </Text>
             <Text>
