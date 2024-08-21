@@ -48,11 +48,12 @@ function App() {
             </Heading>
 
             <Text>
-              I am a third year Bachelor student in Computer Science!
+              I have just started a master in informatics at UiB. My spesialization will be algorithms.
               
             </Text>
             <Text>
               Check out my github to look at my projects (like this website!).
+              And my cv at: <a href='/cv'>haukland.me/cv</a>
             </Text>
           </Stack>
 
