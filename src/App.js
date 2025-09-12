@@ -53,7 +53,7 @@ function App() {
             </Text>
             <Text>
               Check out my github to look at my projects (like this website!).
-              And my cv at: <a href='/cv'>haukland.me/cv</a>
+              And my cv at: <a href='/cv'>reinsdyret.github.io/cv</a>
             </Text>
           </Stack>
 
