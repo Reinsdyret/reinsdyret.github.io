@@ -65,9 +65,11 @@ function App() {
                     <LinkOverlay href="https://github.com/Reinsdyret">GitHub</LinkOverlay>
                   </Button>
                 </LinkBox>
-                <Button leftIcon={<Icon as={FaLinkedin} />} colorScheme="blue">
-                  LinkedIn
-                </Button>
+                <LinkBox>
+                  <Button leftIcon={<Icon as={FaLinkedin} />} colorScheme="blue">
+                    <LinkOverlay href="https://www.linkedin.com/in/lars-m%C3%B8en-haukland-511618176/">LinkedIn</LinkOverlay>
+                  </Button>
+                </LinkBox>
               </HStack>
             </Box>
 
