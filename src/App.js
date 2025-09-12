@@ -253,7 +253,7 @@ function App() {
             <Box textAlign="center" py={8}>
               <Text color={textColor}>
                 Built with React & Chakra UI • 
-                <Link href="https://github.com/Reinsdyret/reinsdyret.github.io" color="blue.500" ml={2}>
+                <Link href="https://github.com/Reinsdyret/reinsdyret.github.io/tree/master" color="blue.500" ml={2}>
                   View Source
                 </Link>
               </Text>
