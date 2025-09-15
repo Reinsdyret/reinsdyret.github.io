@@ -208,7 +208,6 @@ function App() {
             <Card bg="gray.800" w="full" shadow="lg">
               <CardHeader>
                 <HStack>
-                  <Icon as={FaHeart} color="red.500" boxSize={6} />
                   <Heading size="lg">Hobbies & Interests</Heading>
                 </HStack>
               </CardHeader>
@@ -227,14 +226,6 @@ function App() {
                     <Text color={textColor} fontSize="sm">
                       I have trained alot of different sports while studying.
                       Lately I have mostly done road cycling, bouldering and swimming, but I have also done brazilian jiu jitsu and strength training.
-                    </Text>
-                  </VStack>
-                  
-                  <VStack align="start" spacing={3}>
-                    <Heading size="sm" color="purple.500">Hiking & Nature</Heading>
-                    <Text color={textColor} fontSize="sm">
-                      Love exploring the beautiful Norwegian mountains and fjords.
-                      Both by hiking and longer distance bike rides.
                     </Text>
                   </VStack>
                   
